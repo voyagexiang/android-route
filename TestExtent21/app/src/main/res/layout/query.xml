@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/StateAtrr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="目的地："
+            android:textColor="@color/colorAtrrText"
+
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/stateText"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/state"
+            android:text="青岛" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/titlelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="消费："
+            android:textColor="@color/colorAtrrText"
+            android:textSize="18sp" />
+
+
+        <Spinner
+            android:id="@+id/costSpinner"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/cost"
+            android:entries="@array/costData"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/costSpinner"
+            android:text="年龄："
+            android:textColor="@color/colorAtrrText"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/ageSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/age"
+            android:entries="@array/ageData"
+            android:spinnerMode="dropdown" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/CountAtrr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/adult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="成人："
+            android:textColor="@color/colorAtrrText"
+            android:textSize="18sp" />
+
+
+        <Spinner
+            android:id="@+id/adultSpinner"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/adult"
+            android:entries="@array/adult"
+            android:spinnerMode="dropdown"
+            />
+
+        <TextView
+            android:id="@+id/children"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/adultSpinner"
+            android:text="儿童："
+            android:textColor="@color/colorAtrrText"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/childrenSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/children"
+            android:entries="@array/children"
+            android:spinnerMode="dropdown" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/travallayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="游玩方式："
+            android:textColor="@color/colorAtrrText"
+            android:textSize="18sp" />
+
+
+        <Spinner
+            android:id="@+id/modeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/mode"
+            android:entries="@array/travalData"
+            android:spinnerMode="dropdown" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_Quer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#14E806"
+        android:text="查询" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/test_result"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_marginTop="5dp"-->
+
+        <!--android:text="结果显示："-->
+        <!--android:textSize="16sp" />-->
+
+    <ListView
+        android:id="@+id/resultContext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice"
+        android:divider="@color/colorList"
+        android:dividerHeight="1px" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TestExtent</string>
+
+
+    <string name="nameSpace">http://192.168.70.24/</string>
+
+    <string name="Addressurl">http://192.168.70.24:7777/Service1.asmx</string>
+    <string name="Addressmethod">HelloWorld</string>
+    <string name="AddresssoapAction">http://tempuri.org/HelloWorld</string>
+
+    <string name="Weatherurl">http://192.168.70.24/Service1.asmx</string>
+    <string name="Weathermethod">selectAllCargoInfor</string>
+    <string name="WeathersoapAction">http://tempuri.org/selectAllCargoInfor</string>
+    <!-- Navigation vectore URL-->
+    <string name="navigation_vector">http://www.arcgis.com/sharing/rest/content/items/dcbbba0edf094eaa81af19298b9c6247/resources/styles/root.json</string>
+    <string name="routing_service1">http://sampleserver6.arcgisonline.com/arcgis/rest/services/NetworkAnalysis/SanDiego/NAServer/Route</string>
+    <string name="routing_service">http://192.168.70.24:6080/arcgis/rest/services/QD_ND/NAServer/Route</string>
+    <!-- Drawer strings-->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="progress_title">Finding Route</string>
+    <string name="progress_message">Please wait&#8230;</string>
+    <string name="title_userselect">用户选择</string>
+    <string name="cost_user">消费：</string>
+    <string name="like_user">偏好：</string>
+    <string name="count_user">人数：</string>
+    <string name="commit_button">提交</string>
+
+</resources>
+

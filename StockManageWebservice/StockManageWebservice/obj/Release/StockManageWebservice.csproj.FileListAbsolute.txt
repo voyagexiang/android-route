@@ -1,0 +1,6 @@
+C:\Users\Administrator\Downloads\Demo\StockManageWebservice\StockManageWebservice\bin\StockManageWebservice.dll.config
+C:\Users\Administrator\Downloads\Demo\StockManageWebservice\StockManageWebservice\bin\StockManageWebservice.dll
+C:\Users\Administrator\Downloads\Demo\StockManageWebservice\StockManageWebservice\bin\StockManageWebservice.pdb
+C:\Users\Administrator\Downloads\Demo\StockManageWebservice\StockManageWebservice\obj\Release\StockManageWebservice.dll
+C:\Users\Administrator\Downloads\Demo\StockManageWebservice\StockManageWebservice\obj\Release\StockManageWebservice.pdb
+C:\Users\Administrator\Downloads\Demo\StockManageWebservice\StockManageWebservice\obj\Release\StockManageWebservice.csprojResolveAssemblyReference.cache
